@@ -21,4 +21,4 @@ function playRound(playerSelection, computerSelection){
 }
 }
 
-playRound();
+playRound(playerSelection, computerSelection);
