@@ -4,7 +4,7 @@ let round = 0;
 let playerScore = 0;
 let computerScore = 0;
 
-//CHOICE NO FUNCIONABA ADENTRO DE PLAYROUND PORQUE LAS VARIABLES TENIAN EL MISMO NOMBRE QUE LOS PARAMETROS DE PLAYROUND Y SE SOBREESCRIBIAN LOS VALORES
+//Choice didn´t work inside playRound cause variables had the same name as the parameters
 
 function playRound(playerChoose, computerChoose){ 
 
