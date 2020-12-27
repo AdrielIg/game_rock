@@ -4,7 +4,7 @@ let round = 0;
 let playerScore = 0;
 let computerScore = 0;
 
-//CHOICE NO FUNCIONABA ADENTRO DE PLAYROUND PORQUE LAS VARIABLES TENIAN EL MISMO NOMBRE QUE LOS PARAMETROS DE PLAYROUND Y SE SOBREESCRIBIAN LOS VALORES
+//Choice didn´t work inside playRound cause variables had the same name as the parameters
 
 function playRound(playerChoose, computerChoose){ 
         //If player win
@@ -71,6 +71,7 @@ if (playerScore <= 5 && computerScore <= 5){
         console.log(finalResult());
     }
 }
+<<<<<<< HEAD
 
  */
 
@@ -85,3 +86,5 @@ if (playerScore <= 5 && computerScore <= 5){
     const playerSelection = document.querySelector(`.player-paper[id = "#${e.target.id}"]`);
     console.log(playerSelection);
  });
+=======
+>>>>>>> 7b48e040105fde5e5359588a208b37ac41f33701
