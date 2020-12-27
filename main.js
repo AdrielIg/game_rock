@@ -1,4 +1,4 @@
-let playerSelection;
+/* let playerSelection;
 let computerSelection;
 let round = 0;
 let playerScore = 0;
@@ -7,8 +7,6 @@ let computerScore = 0;
 //CHOICE NO FUNCIONABA ADENTRO DE PLAYROUND PORQUE LAS VARIABLES TENIAN EL MISMO NOMBRE QUE LOS PARAMETROS DE PLAYROUND Y SE SOBREESCRIBIAN LOS VALORES
 
 function playRound(playerChoose, computerChoose){ 
-
-    
         //If player win
     if ((playerSelection === "paper" && computerSelection === "rock") || (playerSelection === "rock" && computerSelection === "scissor") || (playerSelection === "scissor" && computerSelection === "paper")){
         playerScore++;
@@ -28,10 +26,6 @@ function playRound(playerChoose, computerChoose){
         playerScore++;
         return "It´s a tie!";
     }
-
-    
-
-
 }
 
 function playerChoice (){
@@ -77,3 +71,17 @@ if (playerScore <= 5 && computerScore <= 5){
         console.log(finalResult());
     }
 }
+
+ */
+
+
+/* function playerChoice(e){
+    const playerSelection = document.querySelector(`img[id = "${e.target}"]`);
+    console.log(playerSelection);
+} */
+
+
+ window.addEventListener("click", function(e){
+    const playerSelection = document.querySelector(`.player-paper[id = "#${e.target.id}"]`);
+    console.log(playerSelection);
+ });

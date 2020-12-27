@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="main.js"></script>
+    <section class="game">
+        <h1>ROCK, PAPER OR SCISSOR</h1>
+        <h2>THE GAME</h2>
+        <div class="round">ROUND: 
+            <h3 class="round-score">0</h3>
+        </div>
+        <h2 class="title-score">SCORE:</h2>
+        <div class="scores">
+            <div class="score-player">0</div>
+            <div class="score-divisor">-</div>
+            <div class="score-computer">0</div>
+        </div>
+        <div class="result"></div>
+        <div class="container">
+            <div class="player">
+                <p>Select Your Choice:</p>
+                <div class="options options-player">
+                    <img class="player-paper player-options" data-value="paper" src="/img/paper.png" alt="">
+                    <img class="player-rock player-options" data-value="rock"  src="/img/rock.png" alt="">
+                    <img class="player-scissor player-options" data-value="scissor"  src="/img/scissors.png" alt="">
+                </div>
+            </div>
+            <div class="computer">
+                <p>Computer´s Choice:</p>
+                <div class="options options-computer">
+                    <img class="computer-paper"  src="/img/paper.png" alt="">
+                    <img class="computer-rock"  src="/img/rock.png" alt="">
+                    <img class="computer-scissor"  src="/img/scissors.png" alt="">
+                </div>
+            </div>            
+        </div>
+        <div class="winner"></div>
+        <button class="btn" data-value="rest">Restart</button>
+    </section>
+    
+
+    
+<script src="app.js"></script>
 </body>
 </html>
