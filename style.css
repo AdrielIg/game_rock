@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+
+.round {
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.round-score {
+  margin-left: 1rem;
+}
+.title-score {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.score {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score-player,
+.score-computer {
+  font-size: 3rem;
+  margin: 0.5rem 3rem;
+}
+.score-divisor {
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 4rem auto 0rem auto;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.options {
+  border-top: 2px solid black;
+}
+
+.options-player img {
+  cursor: pointer;
+  margin: 0rem 1rem;
+  box-shadow: 0px 3px 6px black;
+}
+
+.options-player img:hover {
+  transform: scale(1.1);
+  border: 1px solid blue;
+}
+
+.options-computer {
+  pointer-events: none;
+}
+.result {
+  font-size: 2rem;
+}
+
+.winner {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.computer p {
+  font-size: 2;
+  margin-bottom: 1rem;
+  color: red;
+}
+.player p {
+  font-size: 2;
+  margin-bottom: 1rem;
+  color: blue;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
